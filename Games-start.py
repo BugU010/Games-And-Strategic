@@ -25,7 +25,7 @@ if __name__ == "__main__":
     y1=[]
     y2=[]
     y3=[]
-    for ttt in range(1,1024 * 64):
+    for ttt in range(1,1024 * 32):
         random.shuffle(players)
         n = players_size // 2
         for i in range(n):
